@@ -163,7 +163,7 @@ SECRET_KEY = (
 )
 
 SESSION_COOKIE_SECURE = False  # rule: insecure-cookie-flags
-CSRF_COOKIE_SECURE = False  # rule: insecure-cookie-flags
+CSRF_COOKIE_SECURE = True  # rule: insecure-cookie-flags
 
 DATABASES = {
     "default": {
